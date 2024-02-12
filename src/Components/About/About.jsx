@@ -9,7 +9,7 @@ import TwitterIcon from "@material-ui/icons/Twitter";
 import DescriptionIcon from "@material-ui/icons/Description";
 // import PublicIcon from "@material-ui/icons/Public";
 import { Introduction } from "./Introduction";
-import { Timeline } from "./Timeline";
+// import { Timeline } from "./Timeline";
 import { Techstacks } from "./Techstacks";
 // import Button from "@mui/material/Button";
 export const About = () => {
@@ -21,14 +21,15 @@ export const About = () => {
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
-          Passionate and creative Full Stack Developer having proficiency in
-          MERN Stack. Attired with a variety of tools & technologies and keen to
-          learn new one. Worked on wordpress since last 3 years and delivered
-          15+ projects till now.
+          Passionate and innovative PHP and JavaScript Developer with 1 year of
+          experience. Proficient in a variety of technologies and frameworks.
+          Skilled in WordPress with 1 year of hands-on experience, having
+          successfully delivered numerous projects. Eager to expand expertise
+          and embrace new challenges in the field.
         </p>
         <div className="about__contact center">
           <a
-            href="https://github.com/Shreyasgkhakal100"
+            href="https://github.com/hardikp911"
             aria-label="github"
             target="_blank"
             rel="noreferrer"
@@ -37,7 +38,7 @@ export const About = () => {
             <GitHubIcon />
           </a>
           <a
-            href="mailto:shreyasgkhakal100@gmail.com"
+            href="mailto:hardik3259@gmail.com"
             target="_blank"
             rel="noreferrer"
             aria-label="mail"
@@ -46,7 +47,7 @@ export const About = () => {
             <EmailIcon />
           </a>
           <a
-            href="tel:+918668613593"
+            href="tel:+919116763067"
             target="_blank"
             rel="noreferrer"
             aria-label="phone"
@@ -55,7 +56,7 @@ export const About = () => {
             <PhoneIcon />
           </a>
           <a
-            href="https://www.linkedin.com/in/shreyas-g-khakal/"
+            href="https://www.linkedin.com/in/hardik3259/"
             aria-label="linkedin"
             className="link link--icon"
             target="_blank"
@@ -63,30 +64,34 @@ export const About = () => {
           >
             <LinkedInIcon />
           </a>
-          <a
-            href="https://twitter.com/KhakalShreyas"
-            aria-label="twitter"
-            className="link link--icon"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <TwitterIcon />
-          </a>
         </div>
-
-        <button
-          className="btnResume"
-          onClick={() => {
-            window.open(
-              "https://drive.google.com/file/d/1O7O6dgBNriadNFoYRj8kHr6-dyPyoG4n/view?usp=sharing"
-            );
-          }}
-        >
-          Resume
-        </button>
+        <div class="resume">
+          <button
+            className="btnResume"
+            onClick={() => {
+              window.open(
+                "https://drive.google.com/file/d/1hWvwoCLlxAw1HukAG2PXNtuFkncn8pWD/view?usp=drive_link"
+              );
+            }}
+          >
+            &#x1F441; Preview CV
+          </button>
+          <button
+            className="btnResume"
+            onClick={() => {
+              const link = document.createElement("a");
+              link.href =
+                "https://drive.google.com/uc?export=download&id=1hWvwoCLlxAw1HukAG2PXNtuFkncn8pWD";
+              link.download = "Parmar_Hardik_Resume.pdf";
+              link.click();
+            }}
+          >
+            &#x2b07; Download CV
+          </button>
+        </div>
       </div>
       <Introduction />
-      <Timeline />
+      {/* <Timeline /> */}
       <section id="#skills">
         <Techstacks />
       </section>

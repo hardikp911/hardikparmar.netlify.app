@@ -2,7 +2,7 @@ import React from "react";
 import "./Introduction.css";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 import { ThemeContext } from "../../Context/theme";
-import profilePic from "../../assets/Photo_fw14_056.png";
+import profilePic from "../../assets/about-pic.jpg";
 
 
 export const Introduction = () => {
@@ -22,44 +22,34 @@ export const Introduction = () => {
             <div className="introduction_datacontainer">
               <h4>
                 Hi Everyone, My name is{" "}
-                <span className="different">Hardik Parmar </span> and I am from{" "}
-                <span className="different">
-                  {" "}
-                  Ahmednagar, Maharashtra (India)
+                <span class="different">Hardik Parmar</span> and I am from{" "}
+                <span class="different">Bikaner, Rajasthan (India)</span>. I
+                have completed my graduation in BCA from{" "}
+                <span class="different">
+                  Maharaja Ganga Singh University, BIKANER (BKN)
                 </span>
-                . I have completed my graduation in BTech (Agril. Engineering)
-                from{" "}
-                <span className="different">
-                  VNMKV Agricultural University, Parbhani (MH)
+                . Then I pursued my MCA from{" "}
+                <span class="different">
+                  MIT World Peace University (MIT-WPU)
                 </span>
-                . Then I joined full stack development course by{" "}
-                <span className="different">Masai School</span> a military type
-                coding school.
+                . And now I am working as a{" "}
+                <span class="different">PHP - Developer</span> at{" "}
+                <span class="different">Flippercode</span>.
               </h4>
-              <h4>Terms That can describe me apart form Coding :</h4>
+              <h4>Terms that describe me besides coding:</h4>
+              
               <h4 className="different">
                 <span className="icons">
                   <ExitToAppIcon />
                 </span>
-                Entrepreneure{" "}
+                Football Enthusiast{" "}
               </h4>
+             
               <h4 className="different">
                 <span className="icons">
                   <ExitToAppIcon />
                 </span>
-                Chess Enthusiast{" "}
-              </h4>
-              <h4 className="different">
-                <span className="icons">
-                  <ExitToAppIcon />
-                </span>
-                YouTuber{" "}
-              </h4>
-              <h4 className="different">
-                <span className="icons">
-                  <ExitToAppIcon />
-                </span>
-                Poet{" "}
+                Love  Gardening {" "}
               </h4>
             </div>
           </div>
