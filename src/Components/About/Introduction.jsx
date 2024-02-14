@@ -2,7 +2,7 @@ import React from "react";
 import "./Introduction.css";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 import { ThemeContext } from "../../Context/theme";
-import profilePic from "../../assets/about-pic.jpg";
+import profilePic from "../../assets/hardik.png";
 
 
 export const Introduction = () => {
@@ -22,19 +22,19 @@ export const Introduction = () => {
             <div className="introduction_datacontainer">
               <h4>
                 Hi Everyone, My name is{" "}
-                <span class="different">Hardik Parmar</span> and I am from{" "}
-                <span class="different">Bikaner, Rajasthan (India)</span>. I
+                <span className="different">Hardik Parmar</span> and I am from{" "}
+                <span className="different">Bikaner, Rajasthan (India)</span>. I
                 have completed my graduation in BCA from{" "}
-                <span class="different">
+                <span className="different">
                   Maharaja Ganga Singh University, BIKANER (BKN)
                 </span>
                 . Then I pursued my MCA from{" "}
-                <span class="different">
+                <span className="different">
                   MIT World Peace University (MIT-WPU)
                 </span>
                 . And now I am working as a{" "}
-                <span class="different">PHP - Developer</span> at{" "}
-                <span class="different">Flippercode</span>.
+                <span className="different">PHP - Developer</span> at{" "}
+                <span className="different">Flippercode</span>.
               </h4>
               <h4>Terms that describe me besides coding:</h4>
               

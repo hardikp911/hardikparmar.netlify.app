@@ -11,13 +11,11 @@ export const Footer = () => {
         <a href="/" rel="noreferrer" target="_blank">
           <div className="footerBox">
             <h3 className="footer">
-            <h6 style={{ fontSize: 'smaller' }}>Copyright &#169; 2024 Hardik. All Rights Reserved.</h6>
 
-              {/* Made 
+             Made 
               with{" "}
-               <span style={{ color: `red`, background: `transparent` }}>❤</span>{" "}
-              By Hardik */}
-            </h3>
+               <span style={{ color: `#2978b5`, background: `transparent` }}>❤</span>{" "}
+              By Hardik </h3>
           </div>
         </a>
       </div>

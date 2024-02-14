@@ -65,7 +65,7 @@ export const About = () => {
             <LinkedInIcon />
           </a>
         </div>
-        <div class="resume">
+        <div className="resume">
           <button
             className="btnResume"
             onClick={() => {
