@@ -148,4 +148,7 @@ main {
   .section {
     margin-top: 4em;
   }
+  .resume{
+    display: inherit;
+  }
 }
